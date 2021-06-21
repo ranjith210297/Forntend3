@@ -1,9 +1,7 @@
 import React from "react";
 import {Card} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import ScrollBar from "react-perfect-scrollbar";
 import "react-perfect-scrollbar/dist/css/styles.css";
-import "./login.css";
 
 // import "./example.scss";
 
@@ -11,8 +9,7 @@ class Contactus extends React.Component {
   render() {
     return (
       <div>
-        {/* <ScrollBar component="div"> */}
-      <Container >
+      <Container>
 <br />
           <Card className="text-center">
   <Card.Header>Contact Us</Card.Header>
@@ -55,7 +52,6 @@ class Contactus extends React.Component {
   <Card.Footer className="text-muted">7299505245</Card.Footer>
 </Card>
       </Container>
-      {/* </ScrollBar> */}
       </div>
     );
   }

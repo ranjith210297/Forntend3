@@ -7,7 +7,6 @@ import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import ReactPlayer from 'react-player';
 import Api1 from "./Api1.js";
-import "react-perfect-scrollbar/dist/css/styles.css";
 import Loader from "react-loader-spinner";
 
 const Chart = (props) => {

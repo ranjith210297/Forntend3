@@ -1,9 +1,7 @@
 import React from "react";
 import {Card} from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import "react-perfect-scrollbar/dist/css/styles.css";
 
-// import "./example.scss";
 
 class Contactus extends React.Component {
   render() {

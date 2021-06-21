@@ -9,8 +9,6 @@ import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { Col, Row, Card } from "react-bootstrap";
 import ReactPlayer from 'react-player';
 import Api1 from "./Api1.js";
-import ScrollBar from "react-perfect-scrollbar";
-import "react-perfect-scrollbar/dist/css/styles.css";
 import "./login.css";
 
 let classifier;
@@ -70,7 +68,6 @@ function RealTimeScanner() {
 
   return (
     <div >
-      {/* <ScrollBar component="div"> */}
     <Container>
       <Row>
         <Col xs={12} sm={12} md={12} lg={6}>
@@ -245,7 +242,6 @@ function RealTimeScanner() {
         </Col>
       </Row>
     </Container>
-    {/* </ScrollBar> */}
     </div>
   );
 }
